@@ -16,10 +16,10 @@ function BinarioADecimal(num) {
 //}
 function DecimalABinario(num) {
   // tu codigo aca
-  
   //return num.toString(2);
-//}
-var binary=''
+  //}
+  
+  var binary=''
 while(0<num){
   binary = num %2 + binary
   num=Math.floor=(num/2)
